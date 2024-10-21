@@ -1,0 +1,153 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f4f0;
+    color: #333;
+}
+.logo-flex{
+    display: flex;
+    align-items: center;
+}
+.logo-flex h2{
+    margin-left: 15px;
+}
+
+/* Header */
+.header {
+    background-color: #e3b7a0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #8b5e34;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #623f22;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('bakery-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #8b5e34;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #623f22;
+}
+
+/* Featured Products */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.product-card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 20px;
+    color: #8b5e34;
+    margin-bottom: 15px;
+}
+
+.product-card .btn {
+    padding: 10px 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #e3b7a0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 16px;
+}
